@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --primary-color: #F08740;
+    --light-color: #F1F2F2;
+    --secondary-color: #15A3DC;
+  }
+  
+  body{
+    font-family: 'Montserrat';
+}
+
+ul{
+    padding: 0px;
+    list-style: none;
+  }
+
+li{
+    text-decoration: none;
+  }
+
+
+.hero .container{
+    background-position: center;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image: url(image/hero-img.jpg);
+}
+
+.hero .logo{
+    width: 500px;
+    height: auto;
+}
+
+.Features img{
+    width: 550px;
+    height: auto;
+}
+
+
+.advantage{
+    background-image: url(image/bg-product.jpg);
+    height: 700px;
+}
+
+
+/* media queries */
+@media (max-width: 670px){
+    .hero .container{
+        background-image: none;
+        height: 400px;
+
+    }
+    
+
+    
+}
+
+
+
+/* background color */
+.bg--primary{
+    background-color: #F08740;
+    color: white
+  }
+
+.bg--secondary{
+    background-color: #15A3DC;
+    color: white;
+}
+
+.bg--light{
+    background-color: #F1F2F2;
+}
+
+
+/* text utilities */
+.text--primary{
+    color: var(--primary-color);
+}
+
+.text--secondary{
+    color: var(--secondary-color);
+}
+
+.mt--long{
+    margin-top: 50px;
+}
